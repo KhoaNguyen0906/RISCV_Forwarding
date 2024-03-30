@@ -1,0 +1,13 @@
+module stalling_unit(
+	input logic [31:0] inst,
+	output logic [31:0] inst_data
+	input clk,
+	input rst
+);
+logic stalling_signal;
+logic 	
+always (posedge clk) 
+begin
+	
+end
+endmodule
